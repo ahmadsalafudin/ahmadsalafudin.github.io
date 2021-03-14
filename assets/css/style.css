@@ -9,9 +9,9 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
   color: #272829;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 a {
@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: monospace;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
 }
 
 /*--------------------------------------------------------------
