@@ -830,7 +830,7 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  padding: 70px 20px 80px 20px;
+  padding: 50px 15px 50px 15px;
   transition: all ease-in-out 0.3s;
   background: #fff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
@@ -866,7 +866,7 @@ section {
 
 .services .icon-box h4 {
   font-weight: 600;
-  margin: 10px 0 15px 0;
+  margin: 10px 0 10px 0;
   font-size: 22px;
 }
 
