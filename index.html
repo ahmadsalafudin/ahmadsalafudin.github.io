@@ -287,12 +287,12 @@
   <script type="text/javascript">
   setInterval(
     function () {
-      $('#flyers').modal("show");
-        // if (document.cookie.indexOf('visited=true') == -1){
-        //   var year = 1000*60*60*24*365;
-        //   var expires = new Date((new Date()).valueOf() + year);
-        //   document.cookie = "visited=true;expires=" + expires.toUTCString();
-        // }
+      if (document.cookie.indexOf('visited=true') == -1){
+          $('#flyers').modal("show");
+          var year = 1000*60*60*24*365;
+          var expires = new Date((new Date()).valueOf() + year);
+          document.cookie = "visited=true;expires=" + expires.toUTCString();
+        }
         var options = {
             whatsapp: "089522111390", // WhatsApp number
             telegram: "https://t.me/alghibrany", // telegram
