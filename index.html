@@ -299,7 +299,7 @@
       s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
       var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
     })()
-    setInterval(function(){
+    setTimeout(function(){
       if (document.cookie.indexOf('visited=true') == -1){
         $('#flyers').modal("show");
         var hours = 1000*60*60;
