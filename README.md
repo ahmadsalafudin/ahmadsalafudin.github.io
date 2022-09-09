@@ -1,2 +1,2 @@
-# ahmadsalafudin.github.io
-Website for resume
+# ahmadsalafudin.my.id
+v2
