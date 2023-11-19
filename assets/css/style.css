@@ -19,7 +19,8 @@ h2,
 h3,
 h4,
 h5,
-h6 , p {
+h6,
+p {
   font-family: 'JetBrains Mono', monospace;
 }
 
@@ -280,7 +281,7 @@ li {
   #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/new.png") top center no-repeat;
+    background: url("../img/new.jpg") top center no-repeat;
     background-size: cover;
     position: relative;
   }
@@ -419,7 +420,7 @@ section {
   }
 
   .content {
-    margin-bottom:  -70px;
+    margin-bottom: -70px;
   }
 
   /* .content p {
@@ -919,11 +920,12 @@ section {
   font-family: 'JetBrains Mono', monospace;
 }
 
-#contact-form input[type=text], input[type=email]  {
+#contact-form input[type=text],
+input[type=email] {
   font-family: 'JetBrains Mono', monospace;
 }
 
-#contact-form textarea  {
+#contact-form textarea {
   font-family: 'JetBrains Mono', monospace;
 }
 
